@@ -47,7 +47,7 @@ def draw_char_bitmap(ch, num, font, save_dir, canvas_size, x_offset=25, y_offset
     draw.text((x_offset, y_offset), ch, (0, 0, 0), font=font)
     if gray:
         image = image.convert('L')
-    print('draw {ch}')
+    print(f'draw {ch}')
     if num is None:
         image.save(f'{save_dir}/{ch}.png')
     else:
