@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     FLAGS = parser.parse_args()
     canvas_size = FLAGS.canvas_size
-    font_size = FLAGS.canvas_size
+    font_size = FLAGS.font_size
     ch = FLAGS.ch
     font_name = FLAGS.font
     x_offset = FLAGS.x_offset
